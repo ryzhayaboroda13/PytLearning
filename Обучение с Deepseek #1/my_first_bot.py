@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ТОКЕН, который ты получил от @BotFather
-BOT_TOKEN = "8214097372:AAGCWEfNTDUB2CYNnEJA5IFF21_YxBaFtR8"  # ← ЗАМЕНИ ЭТУ СТРОКУ!
+BOT_TOKEN = ""  # ← ЗАМЕНИ ЭТУ СТРОКУ!
 
 # Функция, которая обрабатывает команду /start
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
