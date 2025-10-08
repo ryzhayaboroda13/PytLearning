@@ -2,9 +2,9 @@
 def dispar(a):
     n = a % 2
     if n == 0:
-        return print(f"{a} e` pari")
+        return f"{a} e` pari"
     else:
-        return print(f"{a} e` dispari")
+        return f"{a} e` dispari"
 
 a = int(input("Inserisci il numero da verificare: "))
 print(dispar(a))
