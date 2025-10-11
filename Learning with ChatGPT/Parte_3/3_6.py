@@ -2,4 +2,4 @@
 #pi * r^2
 import module
 r = int(input("Inserisci il raggio del cerchio: "))
-print("il risultato e`", module.circar(r))
+print("il risultato e`", module.areacerchio(r))
