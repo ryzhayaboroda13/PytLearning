@@ -18,6 +18,4 @@ def find_max():
     else:
             print("Numeri non sono stati inseriti")
             return None      
-
-
 find_max()

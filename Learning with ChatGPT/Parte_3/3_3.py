@@ -5,6 +5,5 @@ def dispar(a):
         return f"{a} e` pari"
     else:
         return f"{a} e` dispari"
-
 a = int(input("Inserisci il numero da verificare: "))
 print(dispar(a))

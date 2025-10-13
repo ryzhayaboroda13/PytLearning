@@ -15,3 +15,20 @@ def is_prime(num):
             return "Number isn't prime"
         
     return "Number is prime"
+
+
+#write function inside module that writes a greet message with name and age
+def greet_message(name, age):
+    return f"Hi {name}, {age}"
+
+
+#write module with three functions ^2 ^3 factorial
+def square(n):
+    return n * n
+
+def cube(n):
+    return n * n * n
+
+def factorial(n):
+    import math
+    return math.factorial(n)
