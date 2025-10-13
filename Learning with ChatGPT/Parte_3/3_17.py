@@ -1,11 +1,16 @@
 #write functiont that change lower char to capital and viceversa
-lower = "abcdefghijklmnopqrstuvxyz"
-upper = "ABCDEFGHIJKLMNOPQRSTUVXYZ"
+low = "abcdefghijklmnopqrstuvxyz"
+upp = "ABCDEFGHIJKLMNOPQRSTUVXYZ"
 def invert_case(text):
+    reversedchar = ""
+    reversedtext = ""
     for char in text:
-        if char in lower:
-            change = u
-        elif char in upper:
-
-text = input("Insert text : ").lower()
+        if char in low:
+            reversedchar = char.capitalize()
+            reversedtext = reversedtext + reversedchar 
+        elif char in upp:
+            reversedchar = char.lower()
+            reversedtext = reversedtext + reversedchar
+    return reversedtext
+text = input("Insert text : ")
 print(invert_case(text))
