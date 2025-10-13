@@ -1,10 +1,9 @@
 #write function that check if word is palindrome
 def is_palindrome(text):
-    for char in text:
-        for i in range(len(text), 0):
-            if char != text[i].lower():
-                print(text, "is not palindrome")
-            else:
-                print(text, "is palindrome")
-text = input("Insert text : ")
+    if text == text[::-1]:
+        print(text, " is palindrome")
+    else:
+        print(text, " is not palindrome")
+        
+text = input("Insert text : ").lower().replace(" ","")
 print(is_palindrome(text))
