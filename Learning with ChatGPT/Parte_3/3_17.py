@@ -2,7 +2,8 @@
 low = "abcdefghijklmnopqrstuvxyz"
 upp = "ABCDEFGHIJKLMNOPQRSTUVXYZ"
 def invert_case(text):
-    reversedchar = ""
+    return text.swapcase()
+    """reversedchar = ""
     reversedtext = ""
     for char in text:
         if char in low:
@@ -11,6 +12,6 @@ def invert_case(text):
         elif char in upp:
             reversedchar = char.lower()
             reversedtext = reversedtext + reversedchar
-    return reversedtext
+    return reversedtext"""
 text = input("Insert text : ")
 print(invert_case(text))
